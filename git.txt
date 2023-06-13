@@ -1,0 +1,44 @@
+500  git status
+  501  pwd
+  502  cd /c/
+  503  cd Users/lsavard/
+  504  ls
+  505  cd projets
+  506  mkdir projets
+  507  cd projets/
+  508  git config --global user.name lcsavard
+  509  git config --global user.email lsavard@cmaisonneuve.qc.ca
+  510  git config --list
+  511  git config --global user.email lsavard@cmaisonneuve.qc.ca
+  512  git config --list
+  513  git init
+  514  ls -la
+  515  git add remote origin https://github.com/lcsavard/vendredi.git
+  516  git remote add origin https://github.com/lcsavard/vendredi.git
+  517  git config --list
+  518  git clone https://github.com/lcsavard/vendredi.git
+  519  ls -l
+  520  cd vendredi/
+  521  ls -l
+  522  git status
+  523  git status
+  524  history
+  525  ls -l
+  526  history
+  527  ls -l
+  528  git status
+  529  git add --all
+  530  git status
+  531  git commit -m 'Première validation'
+  532  git status
+  533  git log
+  534  git status
+  535  git status
+  536  git add --all
+  537  git status
+  538  git commit -m 'Seconde validation'
+  539  git status
+  540  git log
+  541  git push --help
+  542  git push -u origin main
+  543  git branch
